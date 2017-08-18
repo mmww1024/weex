@@ -1,7 +1,7 @@
 <template>
   <div v-if="recommendList[0]" class="recommend-mode">
       <h2 class="title"><i class="icon icon-relateRec">a</i>相关推荐</h2>
-      <a v-for="(item, i) in recommendList" href="" class="recommend-list">
+      <a v-for="(item, i) in recommendList" :key="i" href="" class="recommend-list">
           <div class="left">
               <span class="name">{{ item.title }}</span>
                   <em v-if="item.label" class="tag">{{ item.label }}</em>
