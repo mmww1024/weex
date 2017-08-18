@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?u0k0qu');
+  src:  url('fonts/icomoon.eot?u0k0qu#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?u0k0qu') format('truetype'),
+    url('fonts/icomoon.woff?u0k0qu') format('woff'),
+    url('fonts/icomoon.svg?u0k0qu#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-more{
+  content: "\34";
+}
+.icon-look{
+  content: "\6c";
+}
+.icon-video{
+  content: "\76";
+}
+.icon-comment1{
+  content: "\64";
+}
+.icon-praised {
+  content: "\33";
+}
+.icon-rightArraw{
+  content: "\72";
+}
+.icon-newComment{
+  content: "\6e";
+}
+.icon-praise{
+  content: "\32";
+}
+.icon-hotComment{
+  content: "\68";
+}
+.icon-relateRec{
+  content:"\61";
+}
+.icon-comment {
+  content: "\63";
+}
+.icon-thumbed {
+  content: "\65";
+}
+.icon-thumb {
+  content: "\6d";
+}

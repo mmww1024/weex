@@ -1,0 +1,43 @@
+/* @import 'public/_style.css'; */
+
+body{margin:0;}
+  .wrapper { margin-top:12px; background: #eff2f5;}
+  .master{
+    margin-bottom: 10px;
+    padding-left: 12px;
+    background: #fff;
+  }
+  .title .master-title {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: bold;
+    color: #44494D;
+  }
+  .news-check {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    align-items: center;
+    -webkit-align-items: center;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    font-size: 14px;
+    padding: 10px 0;
+    line-height: 20px;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .news-check-li{
+    color: #B5B8BB;
+  }
+  .reply .title{
+    position: relative;
+    padding: 5px 0 5px 32px;
+    height: 30px;
+    font-size: 14px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #e6e6e6;
+    color: #44494D;
+    background: #FBFCFD;
+  }
